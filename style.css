@@ -1,0 +1,56 @@
+body
+{
+    background-color:antiquewhite;
+    display:block;
+}
+
+#app {
+    max-width: 800px;
+    margin: 20px auto;
+    margin-top: 10%;
+    padding: 20px;
+    background-color:antiquewhite;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+#books-list
+{
+  display: flex;
+  flex-direction:column;
+  color: blue;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+#add-book-form
+{
+    display:flex;
+    flex-direction: column;
+    padding-top: 10px;
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+#btn
+{
+    margin-top: 10px;
+    border-radius: 60px;
+    border: solid rgb(207, 202, 202) 1px;
+    color: rgb(18, 18, 192);
+}
+#remove-book-form
+{
+    padding-top: 20px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color:blue;
+}
+#Rbtn
+{
+    border-radius: 5px;
+    border: solid  blue 2px;
+    color: blue;
+}
+#h1
+{
+    color: blue;
+}
